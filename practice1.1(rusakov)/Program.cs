@@ -23,5 +23,4 @@ namespace Create_Struct
             Console.WriteLine(p);
         }
     }
-
 }
