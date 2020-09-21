@@ -6,7 +6,13 @@ namespace practice_1._4__sort_string_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string s = "Microsoft .NET Framework 2.0 Application Development Foundation";
+            string[] sa = s.Split(" "); // чтобы разделить строку слова и поместить их в массив
+
+            Array.Sort(sa); // метод для сортировки массива слов
+
+            s = string.Join(" ", sa);
+            Console.WriteLine(s);
         }
     }
 }
