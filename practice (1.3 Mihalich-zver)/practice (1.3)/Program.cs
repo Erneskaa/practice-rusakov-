@@ -13,7 +13,6 @@ namespace practice__1._3_
             Int64 e = 0;
             string s = "";
             Exception ex = new Exception();
-
             object[] types = { a, b, c, d, e, s, ex };
 
             foreach (object o in types)
