@@ -19,7 +19,7 @@ namespace practice__1._3_
             foreach (object o in types)
             {
                 string type;
-                if (o.GetType().IsValueType) 
+                if (o.GetType().IsValueType)
                     type = "Value type";
                 else
                     type = "Reference type";
